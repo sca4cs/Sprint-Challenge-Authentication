@@ -41,14 +41,16 @@ class Login extends Component {
                 value={this.state.username}
                 onChange={this.inputChangeHandler}
                 type="text"
-                placeholder="username"
+                className="fas fa-user"
+                placeholder="&#xf007;   Username"
                 name="username"
                 />
                 <input
                 value={this.state.password}
                 onChange={this.inputChangeHandler}
                 type="password"
-                placeholder="password"
+                className="fas fa-lock"
+                placeholder="&#xf023;   Password"
                 name="password"
                 />
                 <button type="submit">Sign In</button>

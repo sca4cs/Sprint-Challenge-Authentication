@@ -42,10 +42,10 @@ class Jokes extends Component {
                 </div>
                 <div className="Jokes">
                     {this.state.jokes.map((joke, index) => 
-                        <div className="name-card" key={index}>
-                            <p>type: {joke.type}</p>
-                            <p>setup: {joke.setup}</p>
-                            <p>punchline: {joke.punchline}</p>
+                        <div className="joke-card" key={index}>
+                            <p>type:<br></br>{joke.type}</p>
+                            <p>setup:<br></br>{joke.setup}</p>
+                            <p>punchline:<br></br>{joke.punchline}</p>
                         </div>
                     )}
                 </div>
